@@ -28,6 +28,10 @@ body {
       font-size: 1rem;
     }
 
+    img {
+      width: 200px;
+    }
+
     /*the 8-ball*/
     /* .ball {
       width: 220px;
