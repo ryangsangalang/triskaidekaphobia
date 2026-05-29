@@ -1,0 +1,121 @@
+body {
+      background-color: #0a0a14;
+      color: white;
+      font-family: "VT323", monospace;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+ 
+    .screen {
+      display: none;
+      padding: 40px 20px;
+    }
+
+    .screen.active {
+      display: block;
+    }
+
+    h1 {
+      color: #4f8ef7;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #aaaacc;
+      font-size: 1rem;
+    }
+
+    /*the 8-ball*/
+    /* .ball {
+      width: 220px;
+      height: 220px;
+      background-color: #111;
+      border-radius: 50%;
+      margin: 30px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 40px rgba(79, 142, 247, 0.4);
+    } */
+
+    /*the blue circle inside the ball*/
+    /* .ball-window {
+      width: 100px;
+      height: 100px;
+      background-color: #1a1aff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } */
+
+    /* .ball-window span {
+      color: #c8e0ff;
+      font-size: 2rem;
+      font-weight: bold;
+    } */
+
+    /*shaking animation*/
+    /* @keyframes shake {
+      0%   { transform: rotate(-10deg); }
+      50%  { transform: rotate(10deg); }
+      100% { transform: rotate(-10deg); }
+    }
+
+    .shaking {
+      animation: shake 0.3s infinite;
+    } */
+
+    /*buttons*/
+    button {
+      background-color: #1a1a2e;
+      color: #4f8ef7;
+      border: 1.5px solid #4f8ef7;
+      border-radius: 30px;
+      padding: 12px 36px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    button:hover {
+      background-color: #2a2a4e;
+    }
+
+    /*the text input box*/
+    textarea {
+      width: 80%;
+      max-width: 400px;
+      background-color: #111;
+      color: white;
+      border: 1px solid #4f8ef7;
+      border-radius: 10px;
+      padding: 12px;
+      font-size: 1rem;
+      font-family: "VT323", monospace;
+      resize: none;
+      display: block;
+      margin: 20px auto 0;
+    }
+
+    /*the answer text inside the ball*/
+    #answer-text {
+      color: #c8e0ff;
+      font-size: 0.75rem;
+      padding: 8px;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    /*number of questions asked*/
+    #question-count {
+      color: #7878a0;
+      font-size: 0.85rem;
+      margin-top: 6px;
+    }
