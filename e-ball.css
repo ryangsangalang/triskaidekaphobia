@@ -70,7 +70,7 @@ body {
     } */
 
     /*buttons*/
-    button {
+    /* button {
       background-color: #1a1a2e;
       color: #4f8ef7;
       border: 1.5px solid #4f8ef7;
@@ -82,14 +82,14 @@ body {
       display: block;
       margin-left: auto;
       margin-right: auto;
-    }
+    } */
 
     button:hover {
       background-color: #2a2a4e;
     }
 
     /*the text input box*/
-    textarea {
+    /* textarea {
       width: 80%;
       max-width: 400px;
       background-color: #111;
@@ -102,20 +102,20 @@ body {
       resize: none;
       display: block;
       margin: 20px auto 0;
-    }
+    } */
 
     /*the answer text inside the ball*/
-    #answer-text {
+    /* #answer-text {
       color: #c8e0ff;
       font-size: 0.75rem;
       padding: 8px;
       text-align: center;
       line-height: 1.4;
-    }
+    } */
 
     /*number of questions asked*/
-    #question-count {
+    /* #question-count {
       color: #7878a0;
       font-size: 0.85rem;
       margin-top: 6px;
-    }
+    } */
